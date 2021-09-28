@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--Desenvolvedor: Elenilson Silva-->
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script type="text/javascript" src="assets/js/calculadora.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<title> Calculadora </title>
+	</head>
+	
+	<body>
+		<section class="content-center">
+			<form name="calculadora" align="center">
+				<h1> Calculadora </h1>
+				<div>
+				<input id="visor" type="text" name="visor"/><br>
+				<br>
+				<div>
+				<input type="button" value="7" onclick="Button(value);"/>
+				<input type="button" value="8" onclick="Button(value);"/>
+				<input type="button" value="9" onclick="Button(value);"/>
+				<input type="button" value="/" onclick="Button(value);">
+				<br>
+				<input type="button" value="4" onclick="Button(value);"/>
+				<input type="button" value="5" onclick="Button(value);"/>
+				<input type="button" value="6" onclick="Button(value);"/>
+				<input type="button" value="*" onclick="Button(value);">
+				<br>
+				<input type="button" value="1" onclick="Button(value);"/>
+				<input type="button" value="2" onclick="Button(value);"/>
+				<input type="button" value="3" onclick="Button(value);"/>
+				<input type="button" value="-" onclick="Button(value);"/>
+				<br>
+				<input type="button" value="C" onclick="reset();"/>
+				<input type="button" value="0" onclick="Button(value);"/>
+				<input type="button" value="=" onclick="result();"/>
+				<input type="button" value="+" onclick="Button(value);">
+				<br>
+				
+			</form>
+		</section>
+	</body>
+</html>
